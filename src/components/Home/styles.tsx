@@ -28,6 +28,7 @@ export const InfoName = styled.p`
 `;
 
 export const RepositoryLink = styled.a`
+  font-size: 1.2em;
   text-decoration: none;
   color: #fff;
 
@@ -43,6 +44,8 @@ export const LinkStyled = styled(Link)`
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
 
   &:hover {
     cursor: pointer;
